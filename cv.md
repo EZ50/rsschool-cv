@@ -46,11 +46,11 @@ ___
 
 ## **Education**
 + ### **Webflow service:**
-  [<img src='images/webflow.png' width='280' alt='Photo Certificate'>](images/Webflow.jpg)
+  [<img src='assets/img/webflow.png' width='280' alt='Photo Certificate'>](images/Webflow.jpg)
 + ### **Web design in Figma:**
-  [<img src='images/ProDesign.png' width='280' alt='Photo Certificate'>](images/ProDesign.png)
+  [<img src='assets/img/ProDesign.png' width='280' alt='Photo Certificate'>](images/ProDesign.png)
 + ### **HTML/CSS:**
-  [<img src='images/FructCode.png' width='280' alt='Photo Certificate'>](images/FructCode.png)
+  [<img src='assets/img/FructCode.png' width='280' alt='Photo Certificate'>](images/FructCode.png)
 
 ___
 
