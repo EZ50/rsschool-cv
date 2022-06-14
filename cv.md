@@ -1,4 +1,4 @@
-<img src='images/ez.jpg' width='220' alt='Photo Evgeny Zakharov'>
+<img src='assets/img/ez.jpg' width='220' alt='Photo Evgeny Zakharov'>
 
 # Evgeny Zakharov
 ### **Profession:** Frontend Developer Course<br>**Status:** Student

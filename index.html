@@ -1,26 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>My CV</title>
-	<link rel="stylesheet" href="style.css">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>My CV</title>
+		<link rel="stylesheet" href="style.css">
 	</head>
-<body>
-	<div class="container">
-		<header class="header">
-		</header>
-		<main class="main">
-				<img src="assets/img/ez.jpg" width="160" alt="Photo">
-				<h1>Evgeny Zakharov</h1>
-				<h3>
-					Profession: Frontend Developer Course<br>
-					Status: Student
-				</h3>
-		</main>
-		<footer class="footer">
-		</footer>
-	</div>
-</body>
+	<body>
+		<!-- Блок wrapper, в него обёрнут весь контент проекта -->
+		<div class="wrapper">
+
+			<!-- Шапка сайта, в ней находится тег nav с ссылками на разделы в main -->
+			<header class="header">
+				<nav class="nav">
+					<ul class="navigation">
+						<li><a href="#">About My</a></li>
+						<li><a href="#">Skills</a></li>
+						<li><a href="#">Example code</a></li>
+						<li><a href="#">Work experience</a></li>
+						<li><a href="#">Education</a></li>
+						<li><a href="#">English language</a></li>
+					</ul>
+				</nav>
+			</header>
+			<article class="article">
+				<div class="contact">
+					<img src="assets/img/ez.jpg" width="260" alt="My Photo">
+					<h2>Contacts</h2>
+					<ul class="list-contact">
+						<li class="item-contact">Location: <a href="#">Tolyatti, Russia</a></li>
+						<li class="item-contact">Discord RSSchool: <a href="#">Evgeny Zakharov(@EZ50)</a></li>
+						<li class="item-contact">Phone: <a href="#">+79053069055</a></li>
+						<li class="item-contact">E-mail: <a href="#">evzakharov71@gmail.com</a></li>
+						<li class="item-contact">GitHab: <a href="#">EZ50</a></li>
+						<li class="item-contact">Telegram: <a href="#">Evgeny Zakharov</a></li>
+					</ul>
+				</div>
+			</article>
+
+
+
+			<main class="main">
+				<div class="heading">
+					<h1>Evgeny Zakharov</h1>
+					<h3>
+						Profession: Frontend Developer Course<br>
+						Status: Student
+					</h3>
+				</div>
+				<section class="section-AboutMy">
+					<h2>About My</h2>
+					<p>
+						Before learning programming, I studied web design. The writing of the code liked its dynamics and accuracy,
+						new knowledge, the opportunity to see the result of their work in the present tense.
+						My task is to learn the profession of a developer
+					</p>
+
+				</section>
+
+				<section class="section-skills">
+					<h2>Skills</h2>
+					<ul class="skills">
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>Figma</li>
+						<li>Webflow</li>
+						<li>GIT</li>
+						<li>VS Code</li>
+					</ul>
+				</section>
+
+				<section class="section-code">
+					<h2>Example code</h2>
+					<p>
+						<code>
+							const firstLine = 'RS School is free-of-charge and community-based education';
+							const secondLine = 'program conducted by The Rolling Scopes developer community';
+							const thirdLine = 'since 2013';
+							console.log(`${firstLine}\n${secondLine}\n${thirdLine}`);
+						</code>
+					</p>
+				</section>
+
+				<section class="section-work">
+					<h2>Work experience</h2>
+					<p>Not at the moment</p>
+				</section>
+
+				<section class="section-education">
+					<h2>Education</h2>
+					<div class="block-image">
+						<div class="image">
+							<h3>Webflow service:</h3>
+							<img src="assets/img/webflow.png" width="200" alt="Photo certificate">
+						</div>
+						<div class="image">
+							<h3>Web design in Figma:</h3>
+							<img src="assets/img/ProDesign.png" width="200" alt="Photo certificate">
+						</div>
+						<div class="image">
+							<h3>HTML/CSS:</h3>
+							<img src="assets/img/FructCode.png" width="200" alt="Photo certificate">
+						</div>
+					</div>
+				</section>
+
+				<section class="section-language">
+					<h2>English language</h2>
+					<p>A1 beginner. In the learning process</p>
+				</section>
+			</main>
+
+			<footer class="footer">
+				<h3>Footer</h3>
+			</footer>
+
+		</div>
+	</body>
 </html>
