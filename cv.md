@@ -1,4 +1,4 @@
-<img src='images/ez.jpg' width='220' alt='Photo Evgeny Zakharov'>
+<img src="image/ez.jpg" width="220" alt="Photo Evgeny Zakharov">
 
 # Evgeny Zakharov
 ### **Profession:** Frontend Developer Course<br>**Status:** Student
@@ -46,11 +46,11 @@ ___
 
 ## **Education**
 + ### **Webflow service:**
-  [<img src='assets/img/webflow.png' width='280' alt='Photo Certificate'>](images/Webflow.jpg)
+  [<img src="image/webflow.png" width="280" alt="Photo Certificate">](images/Webflow.jpg)
 + ### **Web design in Figma:**
-  [<img src='assets/img/ProDesign.png' width='280' alt='Photo Certificate'>](images/ProDesign.png)
+  [<img src="image/ProDesign.png" width="280" alt="Photo Certificate">](images/ProDesign.png)
 + ### **HTML/CSS:**
-  [<img src='assets/img/FructCode.png' width='280' alt='Photo Certificate'>](images/FructCode.png)
+  [<img src="image/FructCode.png" width="280" alt="Photo Certificate">](images/FructCode.png)
 
 ___
 
