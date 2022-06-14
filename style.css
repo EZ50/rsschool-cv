@@ -52,7 +52,8 @@ a:hover {
 	color: rgb(0, 0, 255);
 }
 .footer {
-	background-color: darkgoldenrod;
+	background-color: rgb(162, 162, 162);
+	text-align: center;
 	clear: both;
 	height: 10%;
 }
