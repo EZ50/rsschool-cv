@@ -1,78 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>My CV</title>
-		<link rel="stylesheet" href="style.css">
-	</head>
-	<body>
-		<!-- Блок wrapper, в него обёрнут весь контент проекта -->
-		<div class="wrapper">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My CV</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="wrapper">
 
-			<!-- Шапка сайта, в ней находится тег nav с ссылками на разделы в main -->
-			<header class="header">
-				<nav class="nav">
-					<ul class="navigation">
-						<li><a href="#">About My</a></li>
-						<li><a href="#">Skills</a></li>
-						<li><a href="#">Example code</a></li>
-						<li><a href="#">Work experience</a></li>
-						<li><a href="#">Education</a></li>
-						<li><a href="#">English language</a></li>
-					</ul>
-				</nav>
-			</header>
-			<article class="article">
-				<div class="contact">
-					<img src="image/ez.jpg" width="260" alt="My Photo">
-					<h2>Contacts</h2>
-					<ul class="list-contact">
-						<li class="item-contact">Location: <a href="#">Tolyatti, Russia</a></li>
-						<li class="item-contact">Discord RSSchool: <a href="#">Evgeny Zakharov(@EZ50)</a></li>
-						<li class="item-contact">Phone: <a href="#">+79053069055</a></li>
-						<li class="item-contact">E-mail: <a href="#">evzakharov71@gmail.com</a></li>
-						<li class="item-contact">GitHab: <a href="#">EZ50</a></li>
-						<li class="item-contact">Telegram: <a href="#">Evgeny Zakharov</a></li>
-					</ul>
-				</div>
-			</article>
+		<header class="header">
+			<nav class="nav">
+				<ul class="nav_list">
+					<li class="nav_item"><a href="#aboutMy">About My</a></li>
+					<li class="nav_item"><a href="#skills">Skills</a></li>
+					<li class="nav_item"><a href="#code">Example code</a></li>
+					<li class="nav_item"><a href="#work">Work experience</a></li>
+					<li class="nav_item"><a href="#education">Education</a></li>
+					<li class="nav_item"><a href="#english">English language</a></li>
+				</ul>
+			</nav>
+		</header>
 
-
-
-			<main class="main">
-				<div class="heading">
-					<h1>Evgeny Zakharov</h1>
+		<main class="main">
+			<section class="section_contact">
+				<img class="avatar" src="image/ez.jpg" width="230" alt="my photo">
+				<h2 class="heading_contact">Contacts for communication</h2>
+				<ul class="list_contact">
+					<li class="contact_item">Location:<br> <span>Tolyatti, Russia</span></li>
+					<li class="contact_item">Discord RSSchool:<br><span>Evgeny Zakharov(@EZ50)</span></li>
+					<li class="contact_item">Phone:<br><span>+79053069055</span></li>
+					<li class="contact_item">E-mail:<br><span>evzakharov71@gmail.com</span></li>
+					<li class="contact_item">GitHab:<br><span>EZ50</span></li>
+					<li class="contact_item">Telegram:<br><span>Evgeny Zakharov</span></li>
+				</ul>
+			</section>
+			<section class="section_content">
+			<h1>Evgeny Zakharov</h1>
+				<article class="article">
 					<h3>
 						Profession: Frontend Developer Course<br>
 						Status: Student
 					</h3>
-				</div>
-				<section class="section-AboutMy">
-					<h2>About My</h2>
+				</article>
+				<article class="article">
+					<h2 id="aboutMy">About My</h2>
 					<p>
 						Before learning programming, I studied web design. The writing of the code liked its dynamics and accuracy,
 						new knowledge, the opportunity to see the result of their work in the present tense.
 						My task is to learn the profession of a developer
 					</p>
-
-				</section>
-
-				<section class="section-skills">
-					<h2>Skills</h2>
-					<ul class="skills">
-						<li>HTML</li>
-						<li>CSS</li>
-						<li>Figma</li>
-						<li>Webflow</li>
-						<li>GIT</li>
-						<li>VS Code</li>
-					</ul>
-				</section>
-
-				<section class="section-code">
-					<h2>Example code</h2>
+				</article>
+				<article class="article">
+					<h2 id="skills">Skills</h2>
+					<p>
+						HTML
+						CSS
+						Figma
+						Webflow
+						GIT
+						VS Code
+					</p>
+				</article>
+				<article class="article">
+					<h2 id="code">Example code</h2>
 					<p>
 						<code>
 							const firstLine = 'RS School is free-of-charge and community-based education';
@@ -81,41 +73,42 @@
 							console.log(`${firstLine}\n${secondLine}\n${thirdLine}`);
 						</code>
 					</p>
-				</section>
-
-				<section class="section-work">
-					<h2>Work experience</h2>
-					<p>Not at the moment</p>
-				</section>
-
-				<section class="section-education">
-					<h2>Education</h2>
-					<div class="block-image">
-						<div class="image">
-							<h3>Webflow service:</h3>
-							<img src="image/webflow.png" width="200" alt="Photo certificate">
-						</div>
-						<div class="image">
-							<h3>Web design in Figma:</h3>
-							<img src="image/ProDesign.png" width="200" alt="Photo certificate">
-						</div>
-						<div class="image">
-							<h3>HTML/CSS:</h3>
-							<img src="image/FructCode.png" width="200" alt="Photo certificate">
-						</div>
+				</article>
+				<article class="article">
+					<h2 id="work">Work experience</h2>
+					<p>
+						Not at the moment
+					</p>
+				</article>
+				<article class="article">
+					<h2 id="education">Education</h2>
+					<div class="block block_Webflow">
+						<p>Webflow:</p>
+						<img src="image/Webflow.png" width="160" alt="my certificate">
 					</div>
-				</section>
-
-				<section class="section-language">
-					<h2>English language</h2>
+					<div class="block block_ProDisign">
+						<p>Web design in Figma:</p>
+						<img src="image/ProDesign.png" width="201" alt="my certificate">
+					</div>
+					<div class="block block_FructCode">
+						<p>HTML/CSS:</p>
+						<img src="image/FructCode.png" width="160" alt="my certificate">
+					</div>
+				</article>
+				<article class="article">
+					<h2 id="english">English language</h2>
 					<p>A1 beginner. In the learning process</p>
-				</section>
-			</main>
+				</article>
+			</section>
+		</main>
 
-			<footer class="footer">
-				<h3>Footer</h3>
-			</footer>
-
-		</div>
-	</body>
+		<footer class="footer">
+			<img src="image/rs_school_js.svg" width="100" alt="logo rsschool" class="logo">
+			<ul class="list_footer">
+				<li class="footer_item"><a href="https://rs.school/js/">Course «JavaScript/Front-end»</a></li>
+				<li class="footer_item"><a href="https://github.com/EZ50">My GitHab</a></li>
+			</ul>
+		</footer>
+	</div>
+</body>
 </html>

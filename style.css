@@ -2,58 +2,123 @@
 	margin: 0;
 	padding: 0;
 }
-html, body, .wrapper {
+html, body {
+	font: 600 1em/1.4 Geneva, Arial, Helvetica, sans-serif;
 	height: 100%;
-}
-body {
-	font: 16px/1.5 Verdana, Geneva, Tahoma, sans-serif;
-	background-color: rgb(200, 200, 200);
+	color: rgb(89, 92, 118);
+
 }
 .wrapper {
-	max-width: 1280px;
-	background-color: rgb(255, 255, 255);
-	margin: 0 auto;
+	background-color: rgb(240, 240, 240);
+	height: 100%;
+	width: 1280px;
+	margin: auto;
+
 }
 .header {
+	height: 10%;
+	background-color: rgb(208, 194, 159);
 	text-align: center;
-	background-color: rgb(171, 171, 171);
+	overflow: hidden;
 }
 .nav {
-	padding: 40px 0px;
+	margin-top: 28px;
 }
-.nav .navigation li {
+.nav_item {
 	display: inline-block;
-	padding-left: 20px;
-	padding-right: 20px;
+	margin: 0 30px;
 }
-.article {
-	background-color: antiquewhite;
-	width: 260px;
-	float: left;
-	text-align: center;
-	}
-ul.list-contact {
-	list-style-type: none;
+.nav_item a {
+	display: block;
+	background-color: rgb(247, 172, 102);
+	padding: 10px;
+	color: rgb(89, 92, 118);
+	font-weight: 600;
+	text-decoration: none;
 }
-ul.skills {
-	list-style-type: none;
+.nav_item a:hover {
+	color: rgb(247, 172, 102);;
+	background-color: rgb(89, 92, 118);
+}
+.nav_item a:active {
+	color: rgb(89, 92, 118);
+	background-color: rgb(89, 92, 118);
 }
 .main {
-	background-color: bisque;
+	height: 80%;
 }
-.image {
+.section_contact {
+	background-color: rgb(247, 172, 102);
+	height: 100%;
+	width: 18%;
+	float: left;
+}
+.section_content {
+	width: 82%;
+	background-color: rgb(208, 194, 159);
+	height: 100%;
+	margin-left: 18%;
+}
+.article {
+	padding: 10px 30px;
+}
+.block {
 	display: inline-block;
-}
-a {
-	text-decoration: none;
-	color:rgb(252, 0, 0);
-}
-a:hover {
-	color: rgb(0, 0, 255);
+	padding: 0 20px;
 }
 .footer {
-	background-color: rgb(162, 162, 162);
-	text-align: center;
-	clear: both;
+	background-color: rgb(208, 194, 159);
 	height: 10%;
+}
+.logo {
+	display: inline-block;
+	margin-left: 60px;
+	margin-top: 26px;
+}
+
+.list_footer {
+	display: inline-block;
+	margin-left: 10px;
+}
+.footer_item {
+	display: inline-block;
+	padding-left: 84px;
+}
+.footer_item a {
+	color: rgb(89, 92, 118);
+}
+.footer_item a:hover {
+	color: black;
+}
+.footer_item a:active {
+	color: red;
+}
+h1 {
+	font-size: 32px;
+	padding-bottom: 20px;
+	color: red;
+	padding-left: 30px;
+}
+h2 {
+	color: red;
+}
+h3 {
+	color: rgb(89, 92, 118);
+}
+.heading_contact, .list_contact {
+	padding-left: 18px;
+}
+.list_contact {
+	list-style: none;
+	padding-top: 10px;
+}
+.heading_contact {
+	padding-top: 20px;
+}
+.contact_item {
+	padding: 5px 0;
+}
+span {
+	font-weight: 600;
+	color: rgb(255, 60, 60);
 }
