@@ -87,10 +87,10 @@ html, body {
 a {
 	color: rgb(89, 92, 118);
 }
-.footer_item a:hover {
+a:hover {
 	color: black;
 }
-.footer_item a:active {
+a:active {
 	color: red;
 }
 h1 {
